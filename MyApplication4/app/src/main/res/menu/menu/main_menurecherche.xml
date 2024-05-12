@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item
+       android:id="@+id/action_search1"
+       android:tint="@color/black"
+       android:icon="@android:drawable/ic_menu_search"
+       app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:title="bnsearche" />
+
+  <!--  <item
+        android:id="@+id/searchvocal"
+        android:tint="@color/black_900_99"
+        android:icon="@drawable/ic_baseline_mic_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:title="bnsearche"
+        android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"/>
+-->
+
+
+
+</menu>

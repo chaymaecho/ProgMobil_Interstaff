@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bprofilcandidat"
+        android:tint="@color/black"
+        android:icon="@drawable/profil"
+        app:showAsAction="always|collapseActionView"
+        android:title="TODO" />
+   <item
+        android:id="@+id/action_message"
+        android:tint="@color/black"
+       android:layout_width="21.97dp"
+       android:layout_height="20dp"
+        android:icon="@drawable/messenger"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:title="bnsearche" />
+    <item
+        android:id="@+id/action_search1"
+        android:tint="@color/black"
+        android:icon="@drawable/baseline_notifications_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:title="bnsearche" />
+
+
+
+</menu>

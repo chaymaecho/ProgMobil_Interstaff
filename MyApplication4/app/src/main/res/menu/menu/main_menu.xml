@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bprofilcandidat"
+        android:tint="@color/black"
+        android:icon="@drawable/profil"
+        app:showAsAction="always|collapseActionView"
+        android:title="TODO" />
+   <item
+        android:id="@+id/action_search1"
+        android:tint="@color/black"
+        android:icon="@drawable/baseline_notifications_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:title="bnsearche" />
+<!--
+    <item
+        android:id="@+id/searchvocal"
+        android:tint="@color/black_900_99"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:title="bnsearche"
+        android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"/>
+
+-->
+
+    <item android:title="Search Forward"
+        android:icon="@android:drawable/ic_menu_search"
+        android:id="@+id/itemsearchavancer"
+        />
+    <item android:title="Offers save"
+        android:id="@+id/itemsauvgarder"
+        />
+    <item android:title="Logout"
+        android:id="@+id/itemdeconnexion"
+        />
+    <item android:title="Quit"
+        android:id="@+id/itemquit"
+        />
+
+
+
+</menu>

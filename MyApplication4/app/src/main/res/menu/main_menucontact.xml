@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_refuse"
+        android:title="Envoyer un msg" />
+    <item
+        android:id="@+id/menu_contact"
+        android:title="Appeler " />
+
+    <item
+        android:id="@+id/menu_add_to_calendar"
+        android:title="ajouetre au calendrier" />
+</menu>
+

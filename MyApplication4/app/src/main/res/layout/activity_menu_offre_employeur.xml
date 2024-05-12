@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Employee.MenuEmp">
+
+    <!--Top Navbar-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/backArrow"
+                android:layout_width="@dimen/back_width"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/icon_padding"
+                android:src="@drawable/ic_baseline_arrow_back_ios_new_24" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/background_padding"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+
+            <RelativeLayout
+                android:layout_width="358dp"
+                android:layout_height="269dp"
+                android:layout_marginStart="@dimen/card_padding"
+                android:layout_marginTop="@dimen/card_padding"
+                android:layout_marginEnd="@dimen/card_padding"
+                android:layout_marginBottom="@dimen/card_padding"
+                android:layout_weight="0.5"
+                android:background="@drawable/vertjaun">
+
+                <TextView
+                    android:id="@+id/tvCustomerMenuAddTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="@dimen/card_padding"
+                    android:text="@string/AddVacancyMenu"
+                    android:textColor="@color/title2"
+                    android:textSize="30sp" />
+
+                <Button
+
+                    android:id="@+id/btnAddVaMenu"
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClick"
+                    android:padding="@dimen/card_padding"
+                    android:text="@string/Enter"
+                    android:textColor="@color/title" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/ivCustomerMenuAddTitle"
+                android:layout_width="86dp"
+                android:layout_height="83dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="26dp"
+                android:src="@drawable/ajout" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/card_padding"
+                android:layout_marginTop="@dimen/card_padding"
+                android:layout_marginEnd="@dimen/card_padding"
+                android:layout_marginBottom="@dimen/card_padding"
+                android:layout_weight="0.5"
+                android:background="@drawable/vertjaun">
+
+                <TextView
+                    android:id="@+id/tvCustomerMenuMyVacancyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="@dimen/card_padding"
+                    android:text="@string/PublishedVacancyMenu"
+                    android:textColor="@color/title2"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnPublishedVaMenu"
+                    android:layout_width="@dimen/button_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClick"
+                    android:padding="@dimen/card_padding"
+                    android:text="@string/Enter"
+                    android:textColor="@color/title" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/ivCustomerMenuMyVacancyTitle"
+                android:layout_width="110dp"
+                android:layout_height="108dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="26dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/consult" />
+
+
+        </RelativeLayout>
+
+<!--        </RelativeLayout>-->
+
+
+    </LinearLayout>
+
+    <!--Bottom Navbar-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/image_home"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/icon_padding"
+                android:src="@drawable/home" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

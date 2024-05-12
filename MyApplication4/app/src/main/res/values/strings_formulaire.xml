@@ -1,0 +1,34 @@
+<resources>
+    <string name="AddVacancyMenu">Ajoutez nouvelle Ofrre</string>
+    <string name="PublishedVacancyMenu">Consultez les Offres Publies</string>
+    <string name="Enter">voir Plus</string>
+    <string name="LatestJob">Les derniers Offres</string>
+    <string name="FindJob">Trouver Offres</string>
+    <string name="JobTitle">Profession</string>
+    <string name="UserName">Nom d\'utilisateur</string>
+    <string name="UserContact">Numéro de contact </string>
+    <string name="Organization">Sociéte</string>
+    <string name="JobFamily">Domaine professionnel</string>
+    <string name="Sort">Chercher l\'offre</string>
+    <string name="clear">Effacer</string>
+    <string name="Category">Categoré</string>
+    <string name="JobLevel">Niveau de poste</string>
+    <string name="Salary">Salair</string>
+    <string name="UserEmail">Adresse Email</string>
+    <string name="UserPassword">Mot de passe</string>
+    <string name="ReUserPassword">Confirmer le mot de passe</string>
+    <string name="Description">Plus de détails</string>
+    <string name="delete_vacancy">Supprimer</string>
+    <string name="update_vacancy">Mettre à jour</string>
+    <string name="send_message">Envoie de msg</string>
+    <string name="accepted">ACCEPTEE</string>
+    <string name="apply">Voir plus</string>
+    <string name="SearchVacancy">Select Details</string>
+    <string name="Find">Trouve</string>
+
+    <string name="Submit">Soumettre</string>
+    <string name="Login">Connexion</string>
+    <string name="Signin">Se connecte</string>
+    <string name="chooseFile">Choisir une photo de profil</string>
+    <string name="upload">Télécharger</string>
+</resources>
